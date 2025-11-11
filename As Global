@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AS GLOBAL — Hydra & Crane Rentals</title>
+  <meta name="description" content="AS GLOBAL provides Hydra & Crane on hire for construction, factory shifting, and material handling. Safe, reliable, on-time. GST registered.">
+
+  <!-- SEO / Open Graph -->
+  <meta property="og:title" content="AS GLOBAL — Hydra & Crane Rentals">
+  <meta property="og:description" content="Hydra & Crane on hire. Construction lifting, factory shifting, material handling. GST registered.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://your-site.netlify.app/">
+  <meta property="og:image" content="https://via.placeholder.com/1200x630.png?text=AS+GLOBAL">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AS GLOBAL — Hydra & Crane Rentals">
+  <meta name="twitter:description" content="Hydra & Crane on hire. Safe • Reliable • On-Time.">
+  <meta name="twitter:image" content="https://via.placeholder.com/1200x630.png?text=AS+GLOBAL">
+
+  <!-- Icons / PWA (optional files included below) -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.json">
+
+  <!-- Schema.org LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"LocalBusiness",
+    "name":"AS GLOBAL",
+    "description":"Hydra & Crane rental services for construction, factory shifting, and material handling.",
+    "telephone":"+91 99999 99999",
+    "email":"asglobalhydra@gmail.com",
+    "address":{
+      "@type":"PostalAddress",
+      "addressLocality":"Ranchi",
+      "addressRegion":"Jharkhand",
+      "addressCountry":"IN"
+    },
+    "areaServed": ["Ranchi","Bokaro","Jamshedpur","Dhanbad","Nearby Industrial Areas"],
+    "openingHours":"Mo-Su 07:00-22:00"
+  }
+  </script>
+
+  <!-- Styles -->
+  <style>
+    :root { --brand:#ffc107; --ink:#111; --muted:#60636a; --card:#ffffff; --bg:#fffef8; --line:#eee; --accent:#0ea5e9; }
+    * { box-sizing: border-box; }
+    html, body { margin:0; padding:0; background:var(--bg); color:var(--ink); font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+    a { color: inherit; }
+    header { background:#fff; border-bottom:1px solid var(--line); position:sticky; top:0; z-index:20; }
+    .wrap { max-width: 1100px; margin: 0 auto; padding: 16px; }
+    .brand { font-weight: 900; letter-spacing:.2px; }
+    .tag { color: var(--muted); font-size: .95rem; }
+    nav a { text-decoration:none; padding:8px 10px; border-radius:10px; }
+    nav a:hover { background:#f5f5f5; }
+    .btn { display:inline-block; padding:12px 16px; border-radius:12px; border:1px solid #ddd; text-decoration:none; color:#111; background:#fff; font-weight:700; }
+    .btn.primary { background: var(--brand); border-color: var(--brand); }
+    .btn.ghost { background:transparent; border-color:#ddd; }
+    .hero { background: linear-gradient(180deg, rgba(255,193,7,.18), #fff); border-bottom:1px solid var(--line); }
+    h1 { font-size: clamp(2rem, 4.8vw, 3rem); margin: 0; }
+    h2 { font-size: clamp(1.6rem, 3vw, 2rem); margin: 22px 0 10px; }
+    p.lead { color:#333; font-size:1.08rem; margin:12px 0 0; max-width: 68ch; }
+    .grid { display:grid; gap:14px; }
+    @media (min-width: 760px) { .grid.cols-3 { grid-template-columns: repeat(3, 1fr);} .grid.cols-2 { grid-template-columns: repeat(2, 1fr);} }
+    .card { background: var(--card); border:1px solid var(--line); border-radius:16px; padding:16px; }
+    .muted { color: var(--muted); }
+    .pills { display:flex; gap:10px; flex-wrap:wrap; margin:14px 0; }
+    .pill { display:inline-block; padding:6px 10px; border:1px solid #eee; border-radius:999px; background:#fff; font-size:.9rem; }
+    .section { padding: 10px 0 24px; }
+    .gallery { display:grid; gap:10px; grid-template-columns: repeat(2, 1fr); }
+    @media(min-width:760px){ .gallery{ grid-template-columns: repeat(4, 1fr);} }
+    .gallery img { width:100%; height:140px; object-fit:cover; border-radius:12px; border:1px solid var(--line); background:#fff; }
+    .faq details { border:1px solid var(--line); background:#fff; border-radius:12px; padding:12px 14px; margin-bottom:10px; }
+    .faq summary { cursor:pointer; font-weight:700; }
+    .price-table { width:100%; border-collapse: collapse; }
+    .price-table th, .price-table td { border:1px solid var(--line); padding:10px; text-align:left; }
+    footer { border-top:1px solid var(--line); background:#fff; }
+    .toast { position: fixed; left:50%; transform:translateX(-50%); bottom:24px; background:#111; color:#fff; padding:10px 14px; border-radius:999px; font-size:.9rem; opacity:0; pointer-events:none; transition: opacity .25s; }
+    .toast.show { opacity:1; }
+    /* Floating WhatsApp */
+    .wa-float { position: fixed; right: 16px; bottom: 16px; background: #25D366; color: #fff; text-decoration: none; font-weight: 800; padding: 12px 14px; border-radius: 999px; box-shadow: 0 6px 20px rgba(0,0,0,.2); }
+  </style>
+</head>
+<body>
+  <!-- Header / Nav -->
+  <header>
+    <div class="wrap" style="display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;">
+      <div>
+        <div class="brand">AS GLOBAL</div>
+        <div class="tag">Hydra & Crane Rental Services</div>
+      </div>
+      <nav style="display:flex; gap:6px; align-items:center; flex-wrap:wrap;">
+        <a href="#services">Services</a>
+        <a href="#fleet">Fleet</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#areas">Service Areas</a>
+        <a href="#faq">FAQ</a>
+        <a class="btn ghost" href="mailto:asglobalhydra@gmail.com">Email</a>
+        <a class="btn primary" href="tel:+919999999999">Call</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero section">
+    <div class="wrap">
+      <h1>Reliable Hydra & Crane on Hire</h1>
+      <p class="lead">Safe, on-time lifting for construction sites, factory shifting & material handling. 10T / 12T / 14T hydras with trained operators. GST registered. Quick response.</p>
+      <div class="pills">
+        <span class="pill">GST Registered</span>
+        <span class="pill">Mon–Sun, 7:00 AM – 10:00 PM</span>
+        <span class="pill">Ranchi • Nearby Areas</span>
+      </div>
+      <div style="display:flex; gap:10px; flex-wrap:wrap; margin:12px 0 4px;">
+        <a class="btn primary" href="tel:+919999999999" id="cta-call">Call to Book</a>
+        <a class="btn" href="https://wa.me/919999999999?text=Hello%20AS%20GLOBAL%2C%20I%20need%20a%20hydra%2Fcrane.%20Location%3A%20__%2C%20Load%3A%20__%20kg%2C%20Height%3A%20__%20ft%2C%20Date%3A%20__%2C%20Time%3A%20__." id="cta-wa">WhatsApp Inquiry</a>
+        <a class="btn ghost" href="https://maps.google.com/?q=Ranchi%2C%20Jharkhand" target="_blank" rel="noreferrer">Open in Maps</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="section">
+    <div class="wrap">
+      <h2>Services</h2>
+      <div class="grid cols-3">
+        <div class="card"><strong>Construction Lifting</strong><div class="muted">Rebar, shuttering, columns, roofing & site shifting.</div></div>
+        <div class="card"><strong>Factory & Warehouse</strong><div class="muted">Machine loading/unloading, plant shifting & placement.</div></div>
+        <div class="card"><strong>Logistics Support</strong><div class="muted">Material handling for inbound/outbound transport.</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fleet -->
+  <section id="fleet" class="section" style="background:#fff; border-top:1px solid var(--line); border-bottom:1px solid var(--line);">
+    <div class="wrap">
+      <h2>Fleet</h2>
+      <div class="grid cols-3">
+        <div class="card"><strong>Hydra 10T</strong><div class="muted">Compact for tight sites & quick lifts.</div></div>
+        <div class="card"><strong>Hydra 12T</strong><div class="muted">Balanced capacity for most jobs.</div></div>
+        <div class="card"><strong>Hydra 14T</strong><div class="muted">Heavy duty lifts & shifting.</div></div>
+      </div>
+      <p class="muted" style="margin-top:8px;">*Edit tonnage as per your actual vehicle(s).</p>
+    </div>
+  </section>
+
+  <!-- Pricing (indicative) -->
+  <section id="pricing" class="section">
+    <div class="wrap">
+      <h2>Pricing (Indicative)</h2>
+      <p class="muted" style="margin:0 0 8px">Final quote depends on location, duration, load & height. Ask for a site quote on WhatsApp.</p>
+      <div class="card">
+        <table class="price-table">
+          <thead><tr><th>Service</th><th>Half Day (4 hr)</th><th>Full Day (8 hr)</th><th>Notes</th></tr></thead>
+          <tbody>
+            <tr><td>Hydra 10T</td><td>₹ —</td><td>₹ —</td><td>Fuel incl., overtime extra</td></tr>
+            <tr><td>Hydra 12T</td><td>₹ —</td><td>₹ —</td><td>Fuel incl., overtime extra</td></tr>
+            <tr><td>Hydra 14T</td><td>₹ —</td><td>₹ —</td><td>Fuel incl., overtime extra</td></tr>
+          </tbody>
+        </table>
+        <div style="margin-top:10px; display:flex; gap:10px; flex-wrap:wrap;">
+          <a class="btn primary" href="https://wa.me/919999999999?text=Hello%20AS%20GLOBAL%2C%20please%20quote.%20Location%3A%20__%2C%20Load%3A%20__kg%2C%20Height%3A%20__ft%2C%20Hours%2FDay%3A%20__%2C%20Date%3A%20__.">Get Quote on WhatsApp</a>
+          <a class="btn" href="tel:+919999999999">Call for Best Price</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Areas + Hours -->
+  <section id="areas" class="section" style="background:#fff; border-top:1px solid var(--line); border-bottom:1px solid var(--line);">
+    <div class="wrap">
+      <h2>Service Areas & Hours</h2>
+      <div class="grid cols-2">
+        <div class="card">
+          <strong>Areas</strong>
+          <ul class="muted">
+            <li>Ranchi</li><li>Bokaro</li><li>Jamshedpur</li><li>Dhanbad</li><li>Nearby Industrial Areas</li>
+          </ul>
+        </div>
+        <div class="card">
+          <strong>Working Hours</strong>
+          <div class="muted">Mon–Sun, 7:00 AM – 10:00 PM</div>
+          <div class="muted">Emergency / night shift on request</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery (placeholders) -->
+  <section class="section">
+    <div class="wrap">
+      <h2>Recent Jobs</h2>
+      <div class="gallery">
+        <img alt="Hydra on site" src="https://via.placeholder.com/400x300.png?text=Hydra+Job+1">
+        <img alt="Material handling" src="https://via.placeholder.com/400x300.png?text=Hydra+Job+2">
+        <img alt="Factory shifting" src="https://via.placeholder.com/400x300.png?text=Hydra+Job+3">
+        <img alt="Construction lifting" src="https://via.placeholder.com/400x300.png?text=Hydra+Job+4">
+      </div>
+      <p class="muted" style="margin-top:6px;">Replace images with your own site photos to boost trust and Google ranking.</p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section" style="background:#fff; border-top:1px solid var(--line); border-bottom:1px solid var(--line);">
+    <div class="wrap">
+      <h2>FAQ</h2>
+      <div class="faq">
+        <details>
+          <summary>How do you charge?</summary>
+          <div class="muted">Typically per hour or per day. Overtime, night shift, and outstation charges are extra.</div>
+        </details>
+        <details>
+          <summary>Do you provide operators?</summary>
+          <div class="muted">Yes, trained operators are included. Safety first at all sites.</div>
+        </details>
+        <details>
+          <summary>Do you work on short notice?</summary>
+          <div class="muted">Yes, subject to availability. Contact us on WhatsApp for quick confirmation.</div>
+        </details>
+        <details>
+          <summary>Billing & GST?</summary>
+          <div class="muted">Yes, GST invoices are provided. Please share company details for billing.</div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="wrap">
+      <h2>Contact</h2>
+      <div class="grid cols-2">
+        <div class="card">
+          <div><b>Phone:</b> <a href="tel:+919999999999">+91 99999 99999</a></div>
+          <div><b>WhatsApp:</b> <a href="https://wa.me/919999999999" target="_blank" rel="noreferrer">+91 99999 99999</a></div>
+          <div><b>Email:</b> <a href="mailto:asglobalhydra@gmail.com">asglobalhydra@gmail.com</a></div>
+          <div><b>Location:</b> <a href="https://maps.google.com/?q=Ranchi%2C%20Jharkhand" target="_blank" rel="noreferrer">Ranchi, Jharkhand</a></div>
+          <div><b>GSTIN:</b> XXABCDE1234Z1Z1</div>
+        </div>
+        <div class="card">
+          <strong>Quick Quote on WhatsApp</strong>
+          <div class="muted">Send: Location • Load (kg) • Height • Date & Time</div>
+          <div style="margin-top:10px; display:flex; gap:10px; flex-wrap:wrap;">
+            <a class="btn primary" href="https://wa.me/919999999999?text=Hello%20AS%20GLOBAL%2C%20I%20need%20a%20hydra%2Fcrane.%20Location%3A%20__%2C%20Load%3A%20__%20kg%2C%20Height%3A%20__%20ft%2C%20Date%3A%20__%2C%20Time%3A%20__.">Open WhatsApp</a>
+            <a class="btn" href="tel:+919999999999">Call Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="wrap" style="display:flex; justify-content:space-between; align-items:center; gap:10px; flex-wrap:wrap; padding:14px 0;">
+      <div>
+        <strong>AS GLOBAL</strong>
+        <div class="muted">Hydra & Crane Rental Services • Ranchi, Jharkhand</div>
+        <div class="muted">© 2025 AS GLOBAL. All rights reserved.</div>
+      </div>
+      <div>
+        <a class="btn" href="tel:+919999999999">Call</a>
+        <a class="btn" href="https://wa.me/919999999999">WhatsApp</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <a class="wa-float" href="https://wa.me/919999999999?text=Hello%20AS%20GLOBAL%2C%20I%20need%20a%20hydra%2Fcrane." aria-label="Chat on WhatsApp">WhatsApp</a>
+
+  <!-- Small UX enhancement -->
+  <div class="toast" id="toast">Copied!</div>
+  <script>
+    // Example: copy GST when clicked
+    const toast = document.getElementById('toast');
+    document.addEventListener('click', (e) => {
+      const t = e.target;
+      if (t.closest && t.closest('[data-copy]')) {
+        const val = t.closest('[data-copy]').getAttribute('data-copy');
+        navigator.clipboard.writeText(val).then(()=>{
+          toast.textContent = 'Copied: ' + val;
+          toast.classList.add('show');
+          setTimeout(()=>toast.classList.remove('show'), 1200);
+        });
+      }
+    });
+  </script>
+</body>
+</html>
